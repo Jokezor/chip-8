@@ -1,0 +1,8 @@
+[package]
+name = "chip-8"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minifb = { version = "0.16", default-features = false, features = ["x11"] }
+rand = "0.8.4"
